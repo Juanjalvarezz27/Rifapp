@@ -1,4 +1,5 @@
-import Header from './components/header.jsx'
+import Header from './components/headerHome.jsx'
+import Grid from './components/grid.jsx'
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
 
     <Header/>
+    <Grid/>
     
     </>
   )

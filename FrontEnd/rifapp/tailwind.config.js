@@ -27,14 +27,15 @@ export default {
           550: '#14100c',
         },
       },
+      screens: { // Aquí se definen los breakpoints
+        'xs': '480px', 
+        'sm': '640px', 
+        'md': '768px', 
+        'lg': '1024px', 
+        'xl': '1280px', 
+        '2xl': '1536px', 
+      },
     },
-    screens: {
-      xs: '250px',
-      sm: '340px',
-      md: '668px',
-      lg: '1024px',
-      xl: '1280px',
-    }
   },
   plugins: []
 }

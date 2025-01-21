@@ -25,23 +25,26 @@ export function headerHome() {
           <Typography
             as="a"
             href="#"
-            className="px-2 pb-2 cursor-pointer font-bold xl:text-5xl lg:text-5xl md:text-4xl sm:text-4xl text-3xl">
+            className="flex px-2 pb-2 cursor-pointer font-bold xl:text-5xl lg:text-5xl md:text-5xl sm:text-4xl text-3xl">
             RIFAPP
+            <img src="/trebol.png" alt="Logo" className="w-12  md:mt-1 sm:-mt-1 xs:-mt-1 xxs:-mt-1" />
           </Typography>
+          
+
 
           <div className="flex items-center gap-4">
-          <div className="flex items-center gap-x-1 text-lg">
+          <div className="flex items-center gap-x-1 text-xl">
     <Button
         variant="text"
         size="sm"
-        className="hidden md:inline-block text"
+        className="hidden md:inline-block text hover:transform hover:translate-y-1 transition-transform duration-200"
     >
         <span>Inicia Sesion</span>
     </Button>
     <Button
         variant="gradient"
         size="sm"
-        className="hidden md:inline-block text" 
+        className="hidden md:inline-block text hover:transform hover:translate-y-1 transition-transform duration-200" 
     >
         <span>About Us</span>
     </Button>
@@ -86,9 +89,8 @@ export function headerHome() {
           </div>
         </div>  
         <MobileNav open={openNav}> 
-          <div className="-mt-2 mb-1 border-b border-gray-300 md:hidden" ></div>
+          <div className="-mt-2 mb-1 border-b text-white border-gray-300 md:hidden" ></div>
           <div className="flex items-center gap-x-4 px-4 mt-2 text md:hidden"> 
-
             <Button fullWidth variant="text" size="sm" className="w-full rounded-md bg-primary-250 text-white font-bold transition duration-200 hover:bg-primary-200 hover:text-white border-2 border-transparent hover:border-primary-550"> 
               <span>Inicia Sesion</span>
             </Button>
@@ -103,4 +105,4 @@ export function headerHome() {
   );
 }
 
-export default headerHome; 
+export default headerHome;

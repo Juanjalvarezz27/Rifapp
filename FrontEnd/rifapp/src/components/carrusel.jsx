@@ -18,7 +18,7 @@ function Carrusel() {
   }, []);
 
   return (
-    <div className="grid gap-4">
+    <div className="grid gap-4 ">
       <div>
         <img
           className="h-auto max-w-full rounded-lg"
